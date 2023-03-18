@@ -11,8 +11,8 @@ class Fixed {
 		static const int	_bits; //fractional bits
 	public:
 		Fixed(/* args */);
-		Fixed( const Fixed &fixed );
-		Fixed &operator=( const Fixed &x );
+		Fixed( const Fixed &copy );
+		Fixed &operator=( const Fixed &assign );
 		~Fixed();
 		int	getRawBits( void ) const;
 		void	setRawBits( int const raw );
