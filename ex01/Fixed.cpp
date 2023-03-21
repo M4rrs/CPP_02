@@ -4,7 +4,7 @@ const int Fixed::_bits = 8;
 
 /*=============== CONSTRUCTORS ===============*/
 
-Fixed::Fixed (){
+Fixed::Fixed () : _num(0) {
     std::cout << "Default Constructor called." << std::endl;
 }
 
