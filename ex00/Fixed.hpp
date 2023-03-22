@@ -10,7 +10,7 @@ class Fixed {
 		int	_num;
 		static const int	_bits; //fractional bits
 	public:
-		Fixed(/* args */);
+		Fixed();
 		Fixed( const Fixed &copy );
 		Fixed &operator=( const Fixed &assign );
 		~Fixed();
